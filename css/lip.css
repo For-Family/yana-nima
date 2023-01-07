@@ -1,0 +1,46 @@
+/* Global Styles */
+
+.container{
+    max-width: 1620px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.btn{
+    padding: 10px 10px;
+    min-width: 90px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+.btn:hover{
+    opacity: 1;
+}
+
+.btn:active{
+    opacity: 0.5;
+}
+
+.btn--danger{
+    background-color: #bb2d3b;
+    color: white;
+}
+
+.btn--success{
+    background-color: #157347;
+    color: white;
+}
+
+.btn--info{
+    background-color: #31d2f2;
+    color: white;
+}
+
+.btn--primary{
+    background-color: #0b5ed7;
+    color: white;
+}
